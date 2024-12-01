@@ -1,6 +1,6 @@
 app-id: io.jor.nanosaur2
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: Nanosaur2
 
@@ -29,7 +29,7 @@ modules:
       - type: git
         url: https://github.com/jorio/Nanosaur2.git
         #tag: v2.1.0 ### TODO: Uncomment this for next release - Can't use tag 'v2.1.0' because AppStream metadata files were added in a later commit
-        commit: 589931b7475d2efa8ee64febd874773f0003f236
+        commit: 72d93ed08148d81aa89bab511a9650d7b929d4c7
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
